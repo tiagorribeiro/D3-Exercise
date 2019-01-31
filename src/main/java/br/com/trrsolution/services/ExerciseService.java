@@ -32,12 +32,12 @@ public class ExerciseService {
     			response.add(orderUserByNameAsc(item));
     			response.add(orderUserByAgeAsc(item));
     			response.add(getFeminine(item));
-    			ageOfUsers += ageOfUsers + sumAgeAllUsers(item);
+    			ageOfUsers += sumAgeAllUsers(item);
     		}
     		else if("Lista 3".equals(item.getName())){
     			response.add(sumAgeLessThan25(item));
     			response.add(getUserMoreThan25(item));
-    			ageOfUsers += ageOfUsers + sumAgeAllUsers(item);
+    			ageOfUsers += sumAgeAllUsers(item);
     		}
     	};
     	
