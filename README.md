@@ -6,6 +6,14 @@ Esse Projeto Possui apenas APIs disponiveis para consumo, após configurar o pro
 Swagger
 http://localhost:8080/sdoc.jsp
 
+Dentro da Pasta:
+src\main\resources\
+
+Existe o arquivo
+D3-Input.txt
+
+Com o formato do Json de Entrada para request.
+
 
 
 
